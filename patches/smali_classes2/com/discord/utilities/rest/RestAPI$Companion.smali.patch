@@ -5,7 +5,7 @@
      new-instance v1, Lcom/discord/restapi/RestAPIBuilder;
  
 -    const-string v10, "https://discord.com/api/"
-+    const-string v10, "http://cyber-pc:3001/api/"
++    const-string v10, "https://api.old.server.spacebar.chat/api/"
  
      invoke-direct {v1, v10, v7}, Lcom/discord/restapi/RestAPIBuilder;-><init>(Ljava/lang/String;Lf0/p;)V
  

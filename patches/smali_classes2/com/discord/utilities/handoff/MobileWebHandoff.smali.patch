@@ -5,7 +5,7 @@
      invoke-static {p2, p1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
  
 -    const-string p1, "https://discord.com"
-+    const-string p1, "http://cyber-pc:3001"
++    const-string p1, "https://old.server.spacebar.chat"
  
      .line 9
      invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;

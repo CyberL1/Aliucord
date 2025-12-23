@@ -5,7 +5,7 @@
      new-array v1, v1, [Ljava/lang/Object;
  
 -    const-string v2, "https://discord.com"
-+    const-string v2, "http://cyber-pc:3001"
++    const-string v2, "https://old.server.spacebar.chat"
  
      const/4 v3, 0x0
  

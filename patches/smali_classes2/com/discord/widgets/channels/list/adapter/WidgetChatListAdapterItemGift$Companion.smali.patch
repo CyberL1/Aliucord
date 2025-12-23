@@ -5,7 +5,7 @@
      .locals 1
  
 -    const-string v0, "https://discord.com/store/skus/"
-+    const-string v0, "http://cyber-pc:3001/store/skus/"
++    const-string v0, "https://old.server.spacebar.chat/store/skus/"
  
      .line 1
      invoke-static {v0, p1, p2}, Lb/d/b/a/a;->t(Ljava/lang/String;J)Ljava/lang/String;

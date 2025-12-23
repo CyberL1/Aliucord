@@ -5,7 +5,7 @@
      invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v1, "https://cdn.discordapp.com/app-assets/710982414301790216/store/"
-+    const-string v1, "http://cyber-pc:3001/app-assets/710982414301790216/store/"
++    const-string v1, "https://cdn.old.server.spacebar.chat/app-assets/710982414301790216/store/"
  
      invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -14,7 +14,7 @@
  
      :cond_0
 -    const-string p2, "https://discord.com/stickers/"
-+    const-string p2, "http://cyber-pc:3001/stickers/"
++    const-string p2, "https://old.server.spacebar.chat/stickers/"
  
      .line 2
      invoke-static {p2}, Lb/d/b/a/a;->U(Ljava/lang/String;)Ljava/lang/StringBuilder;

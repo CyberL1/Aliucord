@@ -5,7 +5,7 @@
  .field public static final EXTRA_OPTIONS:Ljava/lang/String; = "com.discord.intent.extra.EXTRA_OPTIONS"
  
 -.field private static final GUIDELINES_URL:Ljava/lang/String; = "https://discord.com/guidelines"
-+.field private static final GUIDELINES_URL:Ljava/lang/String; = "http://cyber-pc:3001/guidelines"
++.field private static final GUIDELINES_URL:Ljava/lang/String; = "https://old.server.spacebar.chat/guidelines"
  
  
  # instance fields
@@ -14,7 +14,7 @@
      const/4 v3, 0x0
  
 -    const-string v4, "https://discord.com/guidelines"
-+    const-string v4, "http://cyber-pc:3001/guidelines"
++    const-string v4, "https://old.server.spacebar.chat/guidelines"
  
      aput-object v4, v2, v3
  

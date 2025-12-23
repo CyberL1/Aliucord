@@ -5,7 +5,7 @@
      const/4 v5, 0x0
  
 -    const-string v6, "https://discord.com/api/v6/oauth2/samsung/authorize/callback"
-+    const-string v6, "http://cyber-pc:3001/api//v6/oauth2/samsung/authorize/callback"
++    const-string v6, "https://api.old.server.spacebar.chat/api//v6/oauth2/samsung/authorize/callback"
  
      .line 3
      invoke-static/range {v1 .. v14}, Lcom/discord/widgets/auth/WidgetOauth2Authorize$OAuth2Authorize;->copy$default(Lcom/discord/widgets/auth/WidgetOauth2Authorize$OAuth2Authorize;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lcom/discord/widgets/auth/WidgetOauth2Authorize$OAuth2Authorize;

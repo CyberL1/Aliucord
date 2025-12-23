@@ -5,7 +5,7 @@
      invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v1, "https://cdn.discordapp.com/app-icons/"
-+    const-string v1, "http://cyber-pc:3001/app-icons/"
++    const-string v1, "https://cdn.old.server.spacebar.chat/app-icons/"
  
      invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -23,7 +23,7 @@
  
      :cond_4
 -    const-string p3, "https://cdn.discordapp.com"
-+    const-string p3, "http://cyber-pc:3001"
++    const-string p3, "https://cdn.old.server.spacebar.chat"
  
      .line 3
      invoke-interface {p3}, Ljava/lang/CharSequence;->length()I
@@ -32,7 +32,7 @@
      invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string p4, "https://discord.com/api//channels/"
-+    const-string p4, "http://cyber-pc:3001/api//channels/"
++    const-string p4, "https://api.old.server.spacebar.chat/api//channels/"
  
      invoke-virtual {p3, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -41,7 +41,7 @@
      invoke-direct {p4}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v0, "https://cdn.discordapp.com/channel-icons/"
-+    const-string v0, "http://cyber-pc:3001/channel-icons/"
++    const-string v0, "https://cdn.old.server.spacebar.chat/channel-icons/"
  
      invoke-virtual {p4, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -50,7 +50,7 @@
      invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v1, "https://cdn.discordapp.com"
-+    const-string v1, "http://cyber-pc:3001"
++    const-string v1, "https://cdn.old.server.spacebar.chat"
  
      invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
  
@@ -59,7 +59,7 @@
      invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v1, "https://discord.com/api//guilds/"
-+    const-string v1, "http://cyber-pc:3001/api//guilds/"
++    const-string v1, "https://api.old.server.spacebar.chat/api//guilds/"
  
      invoke-virtual {p3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -68,7 +68,7 @@
      invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v2, "https://cdn.discordapp.com/icons/"
-+    const-string v2, "http://cyber-pc:3001/icons/"
++    const-string v2, "https://cdn.old.server.spacebar.chat/icons/"
  
      invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -77,7 +77,7 @@
      if-eqz p1, :cond_3
  
 -    const-string p2, "https://cdn.discordapp.com"
-+    const-string p2, "http://cyber-pc:3001"
++    const-string p2, "https://cdn.old.server.spacebar.chat"
  
      .line 6
      invoke-interface {p2}, Ljava/lang/CharSequence;->length()I
@@ -86,7 +86,7 @@
      invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string p3, "https://discord.com/api//users/"
-+    const-string p3, "http://cyber-pc:3001/api//users/"
++    const-string p3, "https://api.old.server.spacebar.chat/api//users/"
  
      invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -95,7 +95,7 @@
      invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v1, "https://cdn.discordapp.com/avatars/"
-+    const-string v1, "http://cyber-pc:3001/avatars/"
++    const-string v1, "https://cdn.old.server.spacebar.chat/avatars/"
  
      invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -104,7 +104,7 @@
      invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v1, "https://cdn.discordapp.com/app-assets/"
-+    const-string v1, "http://cyber-pc:3001/app-assets/"
++    const-string v1, "https://cdn.old.server.spacebar.chat/app-assets/"
  
      invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -113,7 +113,7 @@
      invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v2, "https://cdn.discordapp.com"
-+    const-string v2, "http://cyber-pc:3001"
++    const-string v2, "https://cdn.old.server.spacebar.chat"
  
      invoke-interface {v2}, Ljava/lang/CharSequence;->length()I
  
@@ -122,7 +122,7 @@
      invoke-direct {p4}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v2, "https://discord.com/api//guilds/"
-+    const-string v2, "http://cyber-pc:3001/api//guilds/"
++    const-string v2, "https://api.old.server.spacebar.chat/api//guilds/"
  
      invoke-virtual {p4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -131,7 +131,7 @@
      invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v3, "https://cdn.discordapp.com/banners/"
-+    const-string v3, "http://cyber-pc:3001/banners/"
++    const-string v3, "https://cdn.old.server.spacebar.chat/banners/"
  
      invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -140,7 +140,7 @@
      invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v1, "https://cdn.discordapp.com/guilds/"
-+    const-string v1, "http://cyber-pc:3001/guilds/"
++    const-string v1, "https://cdn.old.server.spacebar.chat/guilds/"
  
      invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -149,7 +149,7 @@
      invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v1, "https://cdn.discordapp.com/guilds/"
-+    const-string v1, "http://cyber-pc:3001/guilds/"
++    const-string v1, "https://cdn.old.server.spacebar.chat/guilds/"
  
      invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -158,7 +158,7 @@
      invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v1, "https://cdn.discordapp.com/banners/"
-+    const-string v1, "http://cyber-pc:3001/banners/"
++    const-string v1, "https://cdn.old.server.spacebar.chat/banners/"
  
      invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -167,7 +167,7 @@
      invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v1, "https://cdn.discordapp.com/app-icons/"
-+    const-string v1, "http://cyber-pc:3001/app-icons/"
++    const-string v1, "https://cdn.old.server.spacebar.chat/app-icons/"
  
      invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -176,7 +176,7 @@
  
      :goto_0
 -    const-string v1, "https://cdn.discordapp.com"
-+    const-string v1, "http://cyber-pc:3001"
++    const-string v1, "https://cdn.old.server.spacebar.chat"
  
      .line 2
      invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
@@ -185,7 +185,7 @@
      invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v2, "https://discord.com/api//guilds/"
-+    const-string v2, "http://cyber-pc:3001/api//guilds/"
++    const-string v2, "https://api.old.server.spacebar.chat/api//guilds/"
  
      invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -194,7 +194,7 @@
      invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v2, "https://cdn.discordapp.com/splashes/"
-+    const-string v2, "http://cyber-pc:3001/splashes/"
++    const-string v2, "https://cdn.old.server.spacebar.chat/splashes/"
  
      invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -203,7 +203,7 @@
  
      :goto_0
 -    const-string v1, "https://cdn.discordapp.com"
-+    const-string v1, "http://cyber-pc:3001"
++    const-string v1, "https://cdn.old.server.spacebar.chat"
  
      .line 2
      invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
@@ -212,7 +212,7 @@
      invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v2, "https://discord.com/api//roles/"
-+    const-string v2, "http://cyber-pc:3001/api//roles/"
++    const-string v2, "https://api.old.server.spacebar.chat/api//roles/"
  
      invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -221,7 +221,7 @@
      invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v2, "https://cdn.discordapp.com/role-icons/"
-+    const-string v2, "http://cyber-pc:3001/role-icons/"
++    const-string v2, "https://cdn.old.server.spacebar.chat/role-icons/"
  
      invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -230,7 +230,7 @@
      if-eqz p1, :cond_0
  
 -    const-string v1, "https://cdn.discordapp.com"
-+    const-string v1, "http://cyber-pc:3001"
++    const-string v1, "https://cdn.old.server.spacebar.chat"
  
      .line 2
      invoke-static {v1}, Ld0/g0/t;->isBlank(Ljava/lang/CharSequence;)Z
@@ -239,7 +239,7 @@
      invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v2, "https://cdn.discordapp.com/app-assets/"
-+    const-string v2, "http://cyber-pc:3001/app-assets/"
++    const-string v2, "https://cdn.old.server.spacebar.chat/app-assets/"
  
      invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
@@ -248,7 +248,7 @@
      invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
  
 -    const-string v2, "https://discord.com/api/store/applications/"
-+    const-string v2, "http://cyber-pc:3001/api/store/applications/"
++    const-string v2, "https://api.old.server.spacebar.chat/api/store/applications/"
  
      invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  

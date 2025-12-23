@@ -5,7 +5,7 @@
  
      :goto_0
 -    const-string v1, "https://cdn.discordapp.com"
-+    const-string v1, "http://cyber-pc:3001"
++    const-string v1, "https://cdn.old.server.spacebar.chat"
  
      .line 2
      invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
@@ -14,7 +14,7 @@
  
      :cond_3
 -    const-string v1, "https://discord.com/api/"
-+    const-string v1, "http://cyber-pc:3001/api//"
++    const-string v1, "https://api.old.server.spacebar.chat/api//"
  
      .line 3
      :goto_3

@@ -5,7 +5,7 @@
      new-instance v0, Landroid/content/Intent;
  
 -    const-string v1, "https://discord.com/app"
-+    const-string v1, "http://cyber-pc:3001/app"
++    const-string v1, "https://old.server.spacebar.chat/app"
  
      .line 4
      invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;

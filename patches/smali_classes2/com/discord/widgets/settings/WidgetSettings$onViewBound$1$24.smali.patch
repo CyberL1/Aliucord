@@ -5,7 +5,7 @@
      move-result-object v1
  
 -    const-string v2, "https://discord.com/acknowledgements"
-+    const-string v2, "http://cyber-pc:3001/acknowledgements"
++    const-string v2, "https://old.server.spacebar.chat/acknowledgements"
  
      const/4 v3, 0x0
  
